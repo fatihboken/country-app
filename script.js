@@ -23,7 +23,7 @@
         let lng = position.coords.longitude;
 
         // api, google, opencagedata
-        const api_key = "<api_anahtar_bilginiz_gelecek>";
+        const api_key = "51731b14e9c34d7faa53ecedead86d88 ";
         const url = `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lng}&key=${api_key}`;
 
         const response = await fetch(url);
